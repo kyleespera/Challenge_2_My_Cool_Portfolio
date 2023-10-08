@@ -5,41 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kyle Espera Portfolio</title>
-    <link rel ="stylesheet" href="./assets/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap" rel="stylesheet">
-    
+    <link rel ="stylesheet" href="./assets/css/style.css"/>   
 </head>
 <body>
-
+<!--Header-->
 <header>
 
         <h1>Kyle Espera</h1>
-        <img src="./Assets/IMG_4376.jpeg" alt="employee photo" 
-        width="300" height="300"/>
-
-
         
-
     <nav>
-
         <ul>
           <li><a href="#about-me"> About Me</a></li>
            <li><a href="#work">Work</a></li>
            <li><a href="#contact-me">Contact Me</a></li>
            <li><a href="./resume.html">Resume</a></li>
         </ul>
-    
     </nav>
 </header>
 
     <!--hero-->
-<section class="hero">
-    <img src="./Assets/animation-of-the-particle-rings-around-digital-globe-free-video.jpg" alt="globe" id="image" 
-    width="1340" height="420"/>
-   
-</section>
+    <section class="hero">        
+        <img class="image2" src="./assets/images/IMG_4376.jpeg" alt="employee photo"/>  
+    </section>
 
  <!-- About section -->
  <section id="about-me" class="about">
@@ -69,27 +56,26 @@
         <!--CSS grid of images-->
         <div class="container">
             <div id="gallery">
-                <a href=https://jakrau.github.io/ARC>
-                    <div class="project" id="focus">
-                        <img src="./Assets/ARC-Preview.jpeg" alt="Accessibility Challenge" />
-                        <h3>ARC</h3>
-                        <p>
-                            Anime Release Calendar
-                        </p>
-                    </div>
+            <figure class="gallery_item gallery_item--1">
+                <a href="https://jakrau.github.io/ARC">
+                     <img src="./assets/images/ARC-Preview.jpeg" class="gallery_img" alt="Project 1" 
+                     width="1200"
+                     height="900"/>
+                        <figcaption>Anime Release Calendar</figcaption>
                 </a>
+            </figure>
 
-                <div class="project">
+                <figure class="gallery_item gallery_item--3">
                     <a href="https://kyleespera.github.io/Challenge_1_Awesome_Code_Refactor/">
-                    <img src="./Assets/01-html-css-git-homework-demo.png" alt="Lodgings" />
-                    <h3>Horiseon Code Refactor</h3>
-                    <p>Code Refactor.</p>
-                </div>
+                    <img src="./assets/images/01-html-css-git-homework-demo.png" alt="Code Refactor" />
+                    <figcaption>Horiseon Code Refactor</figcaption>
+                    </a>
+            </figure>
                 
-        </section>
+</section>
               
 
-       <!-- Contact me section -->
+       <!-- Section for contacts-->
        <section id="contact-me" class="about">
         <div class="flex-row">
             <h2 class="section-title">Contact Me</h2> 
@@ -99,7 +85,7 @@
         </div>
         <div class="contact-info">
         <ul>
-            <!--List item elements-->
+            <!--List of item elements-->
             <li>
                 <a href="#number">415-412-7465</a>   
             </li>
