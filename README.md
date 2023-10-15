@@ -34,3 +34,4 @@ HTML
 CSS
 
 # Link to deployed application
+https://kyleespera.github.io/Challenge_2_My_Cool_Portfolio/
