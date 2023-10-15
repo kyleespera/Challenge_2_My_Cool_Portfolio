@@ -62,7 +62,7 @@
 /*apply style to hero image*/
 .hero{
     height: 400px;
-    background-image: url("../images/animation-of-the-particle-rings-around-digital-globe-free-video.jpg");
+    background-image: url("./assets/images/animation-of-the-particle-rings-around-digital-globe-free-video.jpg");
     background-size: contain;
     background-position: center;
     display: flex;
