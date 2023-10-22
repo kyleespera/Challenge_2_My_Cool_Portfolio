@@ -11,11 +11,11 @@
 
   body {
       color: #1c5a91;
-      font-family: 'Kanit', sans-serif;
-      background-color: rgb(229, 238, 233);
+      font-family: 'Kanit';
+      background-color: rgb(156, 187, 170);
     }
   
-  /* apply styles to <header> */
+  /* add styles to header */
   header {
       padding: 20px 35px;
       background-color: #021418;
@@ -71,7 +71,7 @@
     position: relative;
   }
   
-  /*Add employees photo*/
+  /*include employees photo*/
 .image2 {
     position: absolute;
     top: 150px;
@@ -90,7 +90,7 @@
   }
 
   
-/*project section style*/
+/*project style*/
 .about{
     display: flex;
     flex-wrap: wrap;
@@ -122,7 +122,7 @@
   }
   
 .vl-border1 {
-    border-right: 3px solid #39a6b2;
+    border-right: 3px solid #0b8c63;
     height: 150px;
     flex: 2 1%;
   }
@@ -132,7 +132,7 @@
   }
   
 .step-text p {
-    color: var(--primary-color);
+    color: #056353;
     font-size: 15px;
     text-align: left;
     line-height: 1.3;
@@ -141,7 +141,7 @@
   }
   
 .vl-border2{
-    border-right: 3px solid #39a6b2;
+    border-right: 3px solid #0b8c63;
     height: 450px;
     flex: 2 5%;  
     
@@ -216,7 +216,7 @@ figcaption{
 
 /*About section style*/
 .vl-border3 {
-    border-right: 3px solid #39a6b2;
+    border-right: 3px solid #0b8c63;
     height: 100px;
     flex: 2 5%;
    
@@ -238,7 +238,7 @@ figcaption{
 .contact-info ul li a {
       margin: 0 30px;
       font-size: 18px;
-      color: var(--primary-color);
+      color: #0b8c63;
       text-decoration: none;
       border-bottom: 3px solid;
       padding-bottom: 2px;
